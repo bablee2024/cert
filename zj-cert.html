@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-706f80e6-a225-40eb-a229-a9d01622e4b8@mhtml.blink" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-control" content="no-cache">
+        <meta http-equiv="Cache" content="no-cache">
+        <title>初中级专业技术职务任职资格证书查验</title>
+        <link rel="stylesheet" href="css/zjhrss-pc-zj.css" type="text/css">
+        <link type="text/css" rel="stylesheet" href="css/zjhrss-pc-zj2.css">
+        <script>
+            function getUrlParams(url) {
+                const reg = /(\w+)=([^&]+)/g;
+                const params = {};
+                let match;
+                
+                while ((match = reg.exec(url)) !== null) {
+                    params[match[1]] = decodeURIComponent(match[2]);
+                }
+                
+                return params;
+            }
+            var p = getUrlParams(window.location.href);
+            // console.log(p);
+        </script>
+    </head>
+    <body>
+        <div style="width:1000px;margin:0 auto;">
+            <div id="cxBox" style="display: none;">
+                <button class="zjhrss-text-left zjhrss-btn zjhrss-btn-raised zjhrss-ripple zjhrss-color-assist-4 zjhrss-color-main-1 zjhrss-btn-block">初中级专业技术职务任职资格证书查验</button>
+                <div class="zjhrss-center" style="width:30%;margin:50px 0;">
+                    <div class="zjhrss-textfield">
+                        <label class="zjhrss-textfield-label">证书校验码</label>
+                        <input class="zjhrss-textfield-input" type="text" id="verifyCode" value="">
+                    </div>
+
+                    <div class="zjhrss-center width1">
+                        <button class="zjhrss-btn zjhrss-btn-raised zjhrss-ripple zjhrss-color-main-1 zjhrss-btn-block zjhrss-colortext-assist-5">查&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+                    </div>
+                </div>
+            </div>
+            <div id="jgBox">
+                <button class="zjhrss-text-left zjhrss-btn zjhrss-btn-raised zjhrss-ripple zjhrss-color-assist-4 zjhrss-color-main-1 zjhrss-btn-block">证书查询结果</button>
+                <div class="zjhrss-center width1 margin" style="width:80%; margin:30px 0;" id="resultBox">
+                    <div class="zjhrss-table-fluid  margin1"><table class="zjhrss-table">
+                        <thead> 
+                            <tr><th colspan="2" class="zjhrss-text-lef zjhrss-color-assist-3 zjhrs-textsize-32"><script>document.write(p.t)</script></th> </tr> </thead> <tbody> <tr> 
+                                <td>姓名：&nbsp;<span style="font-family:SimSun"><script>document.write(p.nm)</script></span></td>
+                                <td>身份证号：&nbsp;<span class="Idcard"><script>document.write(p.id)</script></span></td> </tr>
+                            <tr><td>资格名称：&nbsp;<span class="zgname"><script>document.write(p.zg)</script></span></td>
+                                <td>专业名称：&nbsp;<span class="zyname"><script>document.write(p.zy)</script></span></td> </tr>
+                            <tr><td>取得资格时间：&nbsp;<span class="qddate"><script>document.write(p.qd)</script></span></td>
+                                <td>评委会名称：&nbsp;<span class="pwname"><script>document.write(p.pw)</script></span></td></tr> </tbody> </table> </div></div>
+            </div>
+        </div>
+    </body>
+</html>
